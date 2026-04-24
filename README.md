@@ -56,30 +56,30 @@ Cada vez que querés probar un comando tenés que abrir el cliente de nuevo con 
 
 ### Probar libros
 1. Listar todos los libros:
-GET BOOKS
+```GET BOOKS```
 
 2. Agregar un nuevo libro:
-ADD BOOK {"titulo": "Dune", "autorId": "1", "editorialId": "1", "anio": 1965}
+```ADD BOOK {"titulo": "Dune", "autorId": "1", "editorialId": "1", "anio": 1965}```
 
 ### Probar autores
 1. Listar todos los autores:
-GET AUTHORS
+```GET AUTHORS```
 
 2. Agregar un nuevo autor:
-ADD AUTHOR {"nombre": "Brandon Sanderson", "nacionalidad": "Estadounidense"}
+```ADD AUTHOR {"nombre": "Brandon Sanderson", "nacionalidad": "Estadounidense"}```
 
 ### Probar editoriales
 1. Listar todas las editoriales:
-GET PUBLISHERS
+```GET PUBLISHERS```
 
 2. Agregar una nueva editorial:
-ADD PUBLISHER {"nombre": "Minotauro", "pais": "Argentina"}
+```ADD PUBLISHER {"nombre": "Minotauro", "pais": "Argentina"}```
 
 ### Probar manejo de errores
 1. Comando inexistente:
-HOLA
+```HOLA```
 Respuesta esperada: Comando no reconocido
 
 2. JSON mal formado:
-ADD BOOK titulo: Dune
+```ADD BOOK titulo: Dune```
 Respuesta esperada: Error: Formato de JSON no válido
