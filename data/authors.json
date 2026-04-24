@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "nombre": "J.R.R. Tolkien",
+    "nacionalidad": "Británica"
+  },
+  {
+    "id": "2",
+    "nombre": "J.K. Rowling",
+    "nacionalidad": "Británica"
+  },
+  {
+    "id": "3",
+    "nombre": "Patrick Rothfuss",
+    "nacionalidad": "Estadounidense"
+  },
+  {
+    "id": "37459108-c2ec-4fd5-8dce-46eacdb21a48",
+    "nombre": "Christopher Paolini",
+    "nacionalidad": "Estadounidense"
+  }
+]
