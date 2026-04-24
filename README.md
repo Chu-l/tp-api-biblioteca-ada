@@ -29,6 +29,7 @@ node client.js
 
 ## Estructura del proyecto
 
+```
 tp-api-biblioteca-ada/
 ├── controllers/
 │   ├── booksController.js
@@ -47,6 +48,7 @@ tp-api-biblioteca-ada/
 ├── server.js
 ├── client.js
 └── package.json
+```
 
 ## Cómo probar cada funcionalidad
 
